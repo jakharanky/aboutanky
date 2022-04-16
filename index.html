@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/070d2fdb0f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Cairo:wght@200&family=Island+Moments&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me </a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Skills </a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Projects </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hello all , I am <span class="text-primary" > <strong>Ankesh.</strong></span> 
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Web Developer and Data Analyst</p>
+      <img
+        src="img/jakharanky.jpg"
+        alt="A picture of Ankesh"
+        class="intro__img"
+      />
+    </section>
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About <span class="text-primary" > Me </span></h2>
+      <p class="section__subtitle section__subtitle--about">Web Developer/ Data Analyst</p>
+
+      <div class="about-me__body">
+        <p>
+          I am a pre-final year Undergraduate pursuing Bachelores of technology
+          in Computer Science and Engineering, with experience in Web
+          Development and Data Analysis.
+        </p>
+        <p>
+          I am a hardworking college student seeking employment. 
+          Bringing forth a motivated attitude and a variety of powerful skills. 
+          Adept in various social media platforms and office technology programs. 
+          Committed to utilizing my skills to further the mission of a company.
+        </p>
+        <p>
+          I am looking for opportunities as Software Engineer / Web Developer / Data Analyst.
+        </p>
+      </div>
+      <img
+        src="img/aboutme.png"
+        alt="standing img"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My SKILLS -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Skills</h2>
+      <div class="services">
+        <div class="service">
+          <h3></h3>
+          <p></p>
+        </div>
+
+        <!--service-->
+
+        <div class="service">
+          <h3>Language</h3>
+          <p>C, C++, Python</p>
+        </div>
+
+        <!--service-->
+
+        
+        <div class="service">
+          <h3>Data Analysis Tools</h3>
+          <p>Tableau, Power BI</p>
+        </div>
+
+        <div class="service">
+          <h3>Web Development Tools</h3>
+          <p>HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="service">
+          <h3>Course Curriculum</h3>
+          <p>DBMS, OS, DSA, CD</p>
+        </div>
+        
+        <div class="service">
+          <h3>Database</h3>
+          <p>MySql</p>
+        </div>
+
+      </div>
+      <!--services-->
+
+      <a href="cv/ANKESH_RESUME.pdf" class="btn">Resume</a>
+    </section>
+
+    <!-- my work -->
+    <section id="work" class="bg-light py-1">
+      <div class="container">
+          <h2 class="m-heading text-center">My <span class="text-primary">Projects</span></h2>
+          <div class="items">
+              <div class="item">
+                  <i class="fas"></i>
+                  <div>
+                      <h3>Donation App</h3>
+                      <p>Our web application enables anyone to safely and simply make donations or charities to different organizations, and share meaningful thoughts with the people they care about.</p>
+                      <p>⚫Technology used :- HTML, CSS, JavaScript, React Native.<br>
+                        ⚫Features:- CHERISH will work as a digital tool to ease the donations. It acts as a transparent bridge between Charity Donation and the end Beneficiary.
+                      </p>
+                  </div>
+              </div>
+              <div class="item">
+                 <i class="fas"></i>
+                 <div>
+                     <h3>Open Board WebApp</h3>
+                     <p>⚫Technology used :- CSS,HTML,JavaScript.<br>
+                       ⚫Features:- Screen Sharing,Notes Downloading,Size and Colour option for tools,Integerated Notepad.
+                     </p>
+                 </div>
+              </div>
+              <div class="item">
+                 <i class="fas"></i>
+                 <div>
+                     <h3>Small Projects</h3>
+                     <p>Hotel website, Portfolio website, Web Scrapping, Web Automation</p>
+                 </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:ankeshjakhar21@gmail.com" class="footer-link"
+        >ankeshjakhar21@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/ankesh-jakhar-03348a193/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/jakharanky"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.instagram.com/jakhar_anky/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.snapchat.com/add/jakhar_anky?share_id=ivY0jplHeM8&locale=en-IN"
+            ><i class="fab fa-snapchat"></i
+          ></a>
+        </li>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
